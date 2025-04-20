@@ -16,7 +16,7 @@ def create_mcq_app(root):
         conn = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Aman@2001",
+            password="",    # database password
             database="online_exam"
         )
         cursor = conn.cursor(dictionary=True)
